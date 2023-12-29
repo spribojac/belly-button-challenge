@@ -75,5 +75,5 @@ Adapt the Gauge Chart from [Plotly Gauge Charts](https://plotly.com/javascript/g
 ## Have Fun Exploring the Microbial World! 🦠🔬
 
 # Credits
-Thanks you UOB databootcamp and my study group for support in this challenge
+Thanks you UOB databootcamp and my study group for support in this challenge. I attempted this after the Project 3 challenge which helped a lot!
 
