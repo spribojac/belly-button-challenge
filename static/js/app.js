@@ -99,21 +99,21 @@ function buildGaugeChart(sample) {
             type: "indicator",
             mode: "gauge+number",
             gauge: {
-                axis: { range: [null, 10] },
-                bar: { color: "rgb(68,166,198)" },
-                steps: [
-                    { range: [0, 1], color: "rgb(233,245,248)" },
-                    { range: [1, 2], color: "rgb(218,237,244)" },
-                    { range: [2, 3], color: "rgb(203,230,239)" },
-                    { range: [3, 4], color: "rgb(188,223,235)" },
-                    { range: [4, 5], color: "rgb(173,216,230)" },
-                    { range: [5, 6], color: "rgb(158,209,225)" },
-                    { range: [6, 7], color: "rgb(143,202,221)" },
-                    { range: [7, 8], color: "rgb(128,195,216)" },
-                    { range: [8, 9], color: "rgb(113,187,212)" },
-                    { range: [9, 10], color: "rgb(98,180,207)" }
-                ]
-            }
+              axis: { range: [null, 10] },
+              bar: { color: "rgb(68,166,198)" },
+              steps: [
+                  { range: [0, 1], color: "rgb(148,0,211)" },    // Violet
+                  { range: [1, 2], color: "rgb(0,0,255)" },       // Indigo
+                  { range: [2, 3], color: "rgb(0,255,0)" },       // Green
+                  { range: [3, 4], color: "rgb(255,255,0)" },     // Yellow
+                  { range: [4, 5], color: "rgb(255,127,0)" },     // Orange
+                  { range: [5, 6], color: "rgb(255,0,0)" },       // Red
+                  { range: [6, 7], color: "rgb(255,20,147)" },    // Pink
+                  { range: [7, 8], color: "rgb(255,69,0)" },      // Dark Orange
+                  { range: [8, 9], color: "rgb(255,140,0)" },     // Dark Gold
+                  { range: [9, 10], color: "rgb(255,215,0)" }     // Gold
+              ]
+          }
         }];
 
         Plotly.newPlot("gauge", trace);
