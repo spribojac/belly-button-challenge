@@ -99,21 +99,21 @@ function buildGaugeChart(sample) {
             type: "indicator",
             mode: "gauge+number",
             gauge: {
-              axis: { range: [null, 10] },
-              bar: { color: "rgb(68,166,198)" },
-              steps: [
-                  { range: [0, 1], color: "rgb(148,0,211)" },    // Violet
-                  { range: [1, 2], color: "rgb(0,0,255)" },       // Indigo
-                  { range: [2, 3], color: "rgb(0,255,0)" },       // Green
-                  { range: [3, 4], color: "rgb(255,255,0)" },     // Yellow
-                  { range: [4, 5], color: "rgb(255,127,0)" },     // Orange
-                  { range: [5, 6], color: "rgb(255,0,0)" },       // Red
-                  { range: [6, 7], color: "rgb(255,20,147)" },    // Pink
-                  { range: [7, 8], color: "rgb(255,69,0)" },      // Dark Orange
-                  { range: [8, 9], color: "rgb(255,140,0)" },     // Dark Gold
-                  { range: [9, 10], color: "rgb(255,215,0)" }     // Gold
-              ]
-          }
+                axis: { range: [null, 10] },
+                bar: { color: "rgb(68,166,198)" },
+                steps: [
+                    { range: [0, 1], color: "rgb(255,0,0)" },       // Red
+                    { range: [1, 2], color: "rgb(255,69,0)" },      // Dark Orange
+                    { range: [2, 3], color: "rgb(255,140,0)" },     // Dark Goldenrod
+                    { range: [3, 4], color: "rgb(255,165,0)" },     // Orange
+                    { range: [4, 5], color: "rgb(255,255,0)" },     // Yellow
+                    { range: [5, 6], color: "rgb(173,216,230)" },   // Light Blue
+                    { range: [6, 7], color: "rgb(0,255,0)" },       // Green
+                    { range: [7, 8], color: "rgb(0,128,0)" },       // Dark Green
+                    { range: [8, 9], color: "rgb(34,139,34)" },     // Forest Green
+                    { range: [9, 10], color: "rgb(0,128,128)" }     // Teal
+                ]
+            }
         }];
 
         Plotly.newPlot("gauge", trace);
