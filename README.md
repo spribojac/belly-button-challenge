@@ -1,5 +1,7 @@
 # Belly Button Biodiversity Dashboard
 
+GitHub Pages: https://spribojac.github.io/belly-button-challenge/
+
 Welcome to the Belly Button Biodiversity Dashboard! This interactive dashboard allows you to explore the fascinating world of microbes that colonize human navels.
 
 ## Before You Begin
@@ -71,3 +73,7 @@ Adapt the Gauge Chart from [Plotly Gauge Charts](https://plotly.com/javascript/g
 - Thorough README.md file
 
 ## Have Fun Exploring the Microbial World! 🦠🔬
+
+# Credits
+Thanks you UOB databootcamp and my study group for support in this challenge
+
